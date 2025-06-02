@@ -21,3 +21,8 @@ http.addHeader("Content-Type", "multipart/form-data; boundary=" + boundary);
 http.setTimeout(10000); 
 
 ## Server.js
+
+In other hand, exist in this project a file name "server.js" that a minimalist server HTTP for receive the image send it and storage in the folder of server did you desired.
+
+You should modify a couple of lines that appear following this line.
+
