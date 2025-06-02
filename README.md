@@ -1,5 +1,5 @@
 # http_esp32cam
-This project is a reduced version of architecture client/server HTTP for send an image using **esp32cam** via POST to the server. Client (esp32) connect to LAN, and offer a simple html page for select between two resolution .jpeg for send it.
+This project is a reduced version of architecture client/server HTTP for send an image using **esp32cam** via POST to the server. Client esp32 connect to LAN, and offer a simple html page for select between two resolution .jpeg for send it.
 
 **Note:** The IP of the client esp32, displays into serial terminal.
 
