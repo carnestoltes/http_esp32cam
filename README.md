@@ -10,6 +10,7 @@ This project is base on the example of: (yoursunny){https://github.com/yoursunny
 Into **.ino** file, fill this fields with your LAN
 
 static const char* WIFI_SSID = "";
+
 static const char* WIFI_PASS = "";
 
 Into **.cpp** file, you should configure the directory where save the images, the header if you use multer for split the payload and a timeout for give a message enough time for send it. 
