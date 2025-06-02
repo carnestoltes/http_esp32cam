@@ -26,3 +26,6 @@ In other hand, exist in this project a file name "server.js" that a minimalist s
 
 You should modify a couple of lines that appear following this line.
 
+The directory where store the images
+
+const uploadDir = '';
