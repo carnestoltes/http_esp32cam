@@ -35,7 +35,7 @@ const storage = multer.diskStorage({
 		}
 	});
 
-	app.use('/srv/ftp/aguacatelandia', express.static(path.join(__dirname,'')));
+	app.use(uploadDir, express.static(path.join(__dirname,'')));
 
 	//app.use(express.json());
 	//app.use(express.urlencoded({extended:true}));
